@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>signUp</title>
+</head>
+<body>
+    <form action="signup" method="post">
+        Fullname:<input type="text" name="fullName"/><br/>
+        Username:<input type="text" name="userName"/><br/>
+        Password:<input type="password" name="password"/><br/>
+        Confirm Password:<input type="password" name="confirmPassword"/><br/>
+        <input type="radio" id="L" name="userType" value="L" required>
+        <label for="L">SignUp as Learner</label><br>
+        <input type="radio" id="I" name="userType" value="I" required>
+        <label for="I">SignUp as Instructor</label><br>
+        <input type="submit" value="signUp"/>
+    </form>
+</body>
+</html>
